@@ -101,11 +101,12 @@
 .hero-container {
     display:grid;
     grid-template-columns: lfr lfr;
-    height: 125vh;
-    padding: 3rem calc((100vw - 1300px) / 2);
+    height: 140vh;
+    padding: 4rem calc((100vw - 1300px) / 2);
+    line-height: 1.5rem;
 }
 
-  button{
+button{
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
@@ -114,6 +115,11 @@
     cursor: pointer;
     border-radius: 50px;
     transition: all 0.3s ease 0s;
+}
+
+button :hover {
+  background: white;
+  color: beige;
 }
 
 
@@ -129,7 +135,7 @@
 .column-left p {
     margin-bottom: 2rem;
     font-size: 1.5rem;
-    line-height: 1rem ;
+    line-height: 1.5rem ;
 }
 
 .column-left h1 {
@@ -141,6 +147,18 @@
 .column-right {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 0rem 2rem;
+}
+
+.hero-image {
+
+  width: 40%;
+  height: 60%;
+}
+
+@media screen and (max-width:768px) {
+  .hero-container{
+    grid-template-columns: lfr;
+  }
 }
