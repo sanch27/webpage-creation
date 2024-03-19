@@ -1,243 +1,589 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content>
+    <meta name="keywords" content>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://geeksui.codescandy.com/geeks/assets/libs/glightbox/dist/css/glightbox.min.css"/>
     <link rel="stylesheet" href="style.css" />
-    <title>dropdown Menu</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://geeksui.codescandy.com/geeks/assets/images/favicon/favicon.ico">
+    <script src="https://geeksui.codescandy.com/geeks/assets/js/vendors/darkMode.js"></script>
+    <link href="https://geeksui.codescandy.com/geeks/assets/fonts/feather/feather.css" rel="stylesheet">
+    <link href="https://geeksui.codescandy.com/geeks/assets/libs/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://geeksui.codescandy.com/geeks/assets/libs/simplebar/dist/simplebar.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://geeksui.codescandy.com/geeks/assets/css/theme.min.css">
+    <link rel="canonical" href="https://geeksui.codescandy.com/geeks/pages/landings/home-academy.html">
+    <link href="https://geeksui.codescandy.com/geeks/assets/libs/tiny-slider/dist/tiny-slider.css" rel="stylesheet">
+
+    <title>Simple Webpage</title>
+    <style></style>
   </head>
-  <body>
-    <div class="menu-bar">
-        <img class="logo" src="///C:/Users/Rahul/Downloads/logo.svg" alt="logo">
-      <ul>
-        <li><a href="#">Category <i class="fas fa-caret-down"></i></a>
-            <div class="dropdown-menu">
-                <ul>
-                    <li><a href="#">Web Development <i class="fas fa-caret-right"></i></a>
-                        <div class="dropdown-menu-1">
-                            <ul>
-                                <li><a href="#">Bootstrap</a></li>
-                                <li><a href="#">React</a></li>
-                                <li><a href="#">GraphQI</a></li>
-                                <li><a href="#">Gatsby</a></li>
-                                <li><a href="#">Grunt</a></li>
-                                <li><a href="#">Svelte</a></li>
-                                <li><a href="#">Meteor</a></li>
-                                <li><a href="#">HTML 5</a></li>
-                                <li><a href="#">Angular</a></li>
+  <body class="bg-white">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-0">
+            <div class="d-flex">
+                <a class="navbar-brand" href="https://geeksui.codescandy.com/geeks/index.html">
+                    <img src="https://geeksui.codescandy.com/geeks/assets/images/brand/logo/logo.svg" alt="Geeks">
+                </a>
+                <div class="dropdown d-none d-md-block">
+                    <button class="btn btn-light-primary text-primary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fe fe-list me-2 align-middle"></i>
+                        Category
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li class="dropdown-submenu dropend">
+                            
+                            <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">Web Development </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">Bootstrap</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">React</a>
+
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">GraphQI</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">Gatsby</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">Grunt</a>
+
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">Svelte</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">Meteor</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">HTML5</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">Angular</a>
+                                </li>
                             </ul>
-                        </div>
-                    </li> 
-                    <ul>
-                        <li><a href="#">Design <i class="fas fa-caret-right"></i></a>
-                    
-                            <div class="dropdown-menu-2">
-                                <ul>
-                                    <li><a href="#">GraphicDesign</a></li>
-                                    <li><a href="#">Illustator</a></li>
-                                    <li><a href="#">UX/UI Design</a></li>
-                                    <li><a href="#">Figma</a></li>
-                                    <li><a href="#">Adobe XD</a></li>
-                                    <li><a href="#">Sketch</a></li>
-                                    <li><a href="#">Icon Design</a></li>
-                                    <li><a href="#">Photoshop</a></li>
+                        </li>
+                        <li class="dropdown-submenu dropend">
+                            <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">Design</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">GraphicDesign</a>
+
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">Illustator</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">UX / UI Design</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">Figma Design</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">Adobe XD</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">Sketch</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">Icon Design</a>
+                                </li>
+                                
+                                <li>
+                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-category.html">Photoshop</a>
+                                </li>
+                                
                             </ul>
-                        </div>
+                        </li>
+                        <li>
+                            <a href="https://geeksui.codescandy.com/geeks/pages/course-category.html" class="dropdown-item">Mobile App</a>
+                        </li>
+                        <li>
+                            <a href="https://geeksui.codescandy.com/geeks/pages/course-category.html" class="dropdown-item">IT Software</a>
+                        </li>
+                        <li>
+                            <a href="https://geeksui.codescandy.com/geeks/pages/course-category.html" class="dropdown-item">Marketing</a>
+                        </li>
+                        <li>
+                            <a href="https://geeksui.codescandy.com/geeks/pages/course-category.html" class="dropdown-item">Music</a>
+                        </li>
+                        <li>
+                            <a href="https://geeksui.codescandy.com/geeks/pages/course-category.html" class="dropdown-item">Life Style</a>
+                        </li>
+                        <li>
+                            <a href="https://geeksui.codescandy.com/geeks/pages/course-category.html" class="dropdown-item">Business</a>
+                        </li>
+                        <li>
+                            <a href="https://geeksui.codescandy.com/geeks/pages/course-category.html" class="dropdown-item">Photography</a>
+                        </li>
+
                     </ul>
+
+                </div>
+
+            </div>
+            <div class="order-lg-3">
+                <div class="d-flex align-items-center">
+                    <div class="dropdown">
+                        <button class="btn btn-light btn-icon rounded-circle d-flex align-items-center" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+                            <i class="bi theme-icon-active">
+                                <i class="bi theme-icon bi-sun-fill">
+                                    ::before
+                                </i>
+                            </i>
+                            <span class="visually-hidden bs-theme-text">Toggle theme</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bs-theme-text">
+                            <li>
+                                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light" aria-pressed="true">
+                                    <i class="bi theme-icon bi-sun-fill"></i>
+                                    <span class="ms-2">Light</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                                    <i class="bi theme-icon bi-moon-stars-fill"></i>
+                                    <span class="ms-2">Dark</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
+                                    <i class="bi theme-icon bi-circle-half"></i>
+                                    <span class="ms-2">Auto</span>
+                                </button>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-icon btn-light rounded-circle d-none md-inline-flex ms-2">
+                        <i class="fe-shopping-cart align-middle"></i>
+                    </a>
+                    <a href="https://geeksui.codescandy.com/geeks/pages/sign-in.html" class="btn btn-outline-primary ms-2 d-none d-lg-block">Sign in</a>
+                    <a href="https://geeksui.codescandy.com/geeks/pages/sign-in.html" class="btn btn-primary ms-2 d-none d-lg-block">Sign up</a>
+                    <button class="navbar-toggler collapsed ms-2 ms-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar top-bar mt-0"></span>
+                        <span class="icon-bar middle-bar mt-0"></span>
+                        <span class="icon-bar bottom-bar mt-0"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-default">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarLanding" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Landings <i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarLanding">
+                            <li>
+                                <h4 class="dropdown-header">Landings</h4>
+
+                            </li>
+                            <li>
+                                <a href="https://geeksui.codescandy.com/geeks/pages/landings/landing-education.html" class="dropdown-item justify-content-between">Education</a>
+                            </li>
+                            <li>
+                                <a href="https://geeksui.codescandy.com/geeks/pages/landings/landing-education.html" class="dropdown-item justify-content-between">Home Acadamy</a>
+                            </li>
+                            <li>
+                                <a href="https://geeksui.codescandy.com/geeks/pages/landings/landing-education.html" class="dropdown-item justify-content-between">Courses</a>
+                            </li>
+                            <li>
+                                <a href="https://geeksui.codescandy.com/geeks/pages/landings/landing-education.html" class="dropdown-item justify-content-between">Lead Course</a>
+                            </li>
+                            <li>
+                                <a href="https://geeksui.codescandy.com/geeks/pages/landings/landing-education.html" class="dropdown-item justify-content-between">Request Access</a>
+                            </li>
+                            <li>
+                                <a href="https://geeksui.codescandy.com/geeks/pages/landings/landing-education.html" class="dropdown-item justify-content-between">SaaS</a>
+                            </li>
+                            <li>
+                                <a href="https://geeksui.codescandy.com/geeks/pages/landings/landing-education.html" class="dropdown-item justify-content-between">Job Listing</a>
+                            </li>
+                            
+
+                        </ul>
                     </li>
-                    <li><a href="#">Mobile App</a></li>
-                    <li><a href="#">IT Software</a></li>
-                    <li><a href="#">Marketing</a></li>
-                    <li><a href="#">Music</a></li>
-                    <li><a href="#">Life Style</a></li>
-                    <li><a href="#">Business</a></li>
-                    <li><a href="#">Photography</a></li>
-                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarPages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu dropdown-menu-arrow" aria-labelledby="navbarPages">
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">Courses</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Course Single</a>
+                                    
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Course Single V2</a>
+                                    
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Course Resume</a>
+                                    
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Course Category</a>
+                                    
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Course Checkout</a>
+                                    
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Course List</a>
+                                    
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Add New Course</a>
+                                    
+
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">Paths</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Browse Path</a>
+                                    
+
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Path Single</a>
+                                    
+
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">Blog</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Listing</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Article</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Category</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Sidebar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">Carrer</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Listing</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Overview</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Opening</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">Portfolio</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">List</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Single</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">Job</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">List</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Grid</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Single</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Company List</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html"> Company Single</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">Speaclity</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Coming Soon</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Error 404</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Maintainence Mode</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Terms & Conditions</a>
+                                    </li>
+                                </ul>
+                            
+                           
+                                
+                            </li>
+                            <li>
+                                <hr class="mx-3">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/about.html">About</a>
+                            </li>
+                            <li class="dropdown-menu dropend">
+                                <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">Help Center</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Help Center</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">FAQ's</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Guide</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Guide Single</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Support</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Pricing</a>
+                                
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Compare Plan</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Contact</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accounts</a>
+                        <ul class="dropdown-menu dropdown-menu-arrow">
+                            <li>
+                                <h4 class="dropdown-header">Accounts</h4>
+                            </li>
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">Instructor</a>
+                                <ul class="dropdown-menu">
+                                    <li class="text-wrap">
+                                        <h5 class="dropdown-header text-dark">Instructor</h5>
+                                        <p class="dropdown-text mb-0">Instructor Dashboard for manage courses and earning.</p>
+                                    </li>
+                                    <li>
+                                        <hr class="mx-3">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Dashboard</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Subscriptions</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Payments</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Billing Info</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Invoice</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Invoice details</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Earnings</a>
+                                    </li>
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+                                            "Quiz"
+                                            <span class="badge bg-primary ms-1">New</span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Quiz</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Single</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Result</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">Students</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-menu">
+                                        <li class="text-wrap">
+                                            <h5 class="dropdown-header text-dark">Students</h5>
+                                            <p class="dropdown-text mb-0">Students dashboard to manage your courses and subscriptions.</p>
+                                        </li>
+                                        <li>
+                                            <hr class="mx-3">
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Dashboard</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Subscriptions</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Payments</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Billing Info</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Invoice</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">My Path</a>
+                                        
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">BookMarked</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Invoice Details</a>
+                                        </li>
+                                        <li class="dropdown-submenu dropend">
+                                            <a class="dropdown-header dropdown-list-group-item dropdown-toggle" href="#"> "Quiz"
+                                                <span class="badge bg-primary ms-1">New</span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Quiz</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Attempt</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Start</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Result</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </li>  
+
+
+                                    
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">Admin</a>
+                                <ul class="dropdown-menu">
+                                    <li class="text-wrap">
+                                        <h5 class="dropdown-header text-dark">Mater Admin</h5>
+                                        <p class="dropdown-text mb-0">"Master admin dashboard to manage courses, user, site setting, and work with amazing apps."</p>
+                                    </li>
+                                    <li>
+                                        <hr class="mx-3">
+                                    </li>
+                                    <li class="px-3 d-grid">
+                                        <a href="https://geeksui.codescandy.com/geeks/pages/dashboard/admin-dashboard.html" class="btn btn-sm btn-primary">Go to Dashboard</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <hr class="mx-3">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Start</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Sign In</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Sign Up</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Forgot Password</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Edit Profile</a>
+                            </li>
+                            <var><li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Security</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Social Profile</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Notifiactions</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Privacy setting</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Delete Profile</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://geeksui.codescandy.com/geeks/pages/course-single.html">Linked Accounts</a>
+                            </li>
+                        
+
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown dropdown-fullwidth">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mega Menu</a>
+                        <div class="dropdown-menu dropdown-menu-md"></div>
+                    </li>
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">...</a>
+                        <div class="dropdown-menu dropdown-menu-md"></div>
+                    </li>
+
                 </ul>
             </div>
-        </li>    
-                   
-        <li><a href="#">Landings <i class="fas fa-caret-down"></i></a>
-            <div class="dropdown-menu">
-                <ul>
-                    <li><a href="#">Landings</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Home Acadamy</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Lead Courses</a></li>
-                    <li><a href="#">Request Access</a></li>
-                    <li><a href="#">SaaS</a></li>
-                    <li><a href="#">Job Listing</a></li>
-                </ul>
-            </div>
-        </li>
-        <li><a href="#">Pages <i class="fas fa-caret-down"></i></a>
-            <div class="dropdown-menu">
-                <ul>
-                    <li><a href="#">Courses <i class="fas fa-caret-right"></i></a>
-                        <div class="dropdown-menu-1">
-                            <ul>
-                                <li><a href="#">Course Single</a></li>
-                                <li><a href="#">Course Single V2</a></li>
-                                <li><a href="#">Course Resume</a></li>
-                                <li><a href="#">Course Category</a></li>
-                                <li><a href="#">Course Checkout</a></li>
-                                <li><a href="#">Course List</a></li>
-                                <li><a href="#">Add New Course</a></li>
 
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">Paths <i class="fas fa-caret-right"></i></a>
-                        <div class="dropdown-menu-2">
-                            <ul>
-                                <li><a href="#">Browse Path</a></li>
-                                <li><a href="#">Path Single</a></li>
-                            </ul>
-                        </div>
-                    
-                    
-                    </li>
-                    <li><a href="#">Blog <i class="fas fa-caret-right"></i></a>
-                        <div class="dropdown-menu-1">
-                            <ul>
-                                <li><a href="#">Listing</a></li>
-                                <li><a href="#">Article</a></li>
-                                <li><a href="#">Category</a></li>
-                                <li><a href="#">Sidebar</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">Career <i class="fas fa-caret-right"></i></a>
-                        <div class="dropdown-menu-2">
-                            <ul>
-                                <li><a href="#">Overview</a></li>
-                                <li><a href="#">Listing</a></li>
-                                <li><a href="#">Opening</a></li>
+        </div>
 
-                            </ul>
-                        </div>
-                    
-                    
-                    </li>
-                    <li><a href="#">Portfolio <i class="fas fa-caret-right"></i></a>
-                        <div class="dropdown-menu-1">
-                            <ul>
-                                <li><a href="#">List</a></li>
-                                <li><a href="#">Single</a></li>
-                            </ul>
-                        </div>
-                    
-                    
-                    </li>
-                    <li><a href="#">Job <i class="fas fa-caret-right"></i></a>
-                        <div class="dropdown-menu-2">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">List</a></li>
-                                <li><a href="#">Grid</a></li>
-                                <li><a href="#">Single</a></li>
-                                <li><a href="#">Company List</a></li>
-                                <li><a href="#">Company Single</a></li>
-                            </ul>
-                        </div>
-                    
-                    
-                    </li>
-                    <li><a href="#">Speaclity <i class="fas fa-caret-right"></i></a>
-                        <div class="dropdown-menu-1">
-                            <ul>
-                                <li><a href="#">Coming Soon</a></li>
-                                <li><a href="#">Error 404</a></li>
-                                <li><a href="#">Maintainence Mode</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                            </ul>
-                        </div>
-                    
-                    
-                    
-                    </li></br></br>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Help Center <i class="fas fa-caret-right"></i></a>
-                        <div class="dropdown-menu-2">
-                            <ul>
-                                <li><a href="#">Help center</a></li>
-                                <li><a href="#">FAQ'S</a></li>
-                                <li><a href="#">Guide</a></li>
-                                <li><a href="#">Guide Single</a></li>
-                                <li><a href="#">Support</a></li>
-                            </ul>
-                        </div>
-                    
-                    
-                    </li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Compare Plan</a></li>
-                    <li><a href="#">Contact</a></li>
+    </nav>
 
-                </ul>
-            </div>
-        
-        
-        
-        </li>
-        <li><a href="#">Accounts <i class="fas fa-caret-down"></i></a>
-            <div class="dropdown-menu">
-                <ul>
-                    <li><a href="#">Instructor <i class="fas fa-caret-right"></i></a>
-                        <div class="dropdown-menu-1">
-                            <ul>
-                                <li><a href="#">Dashboard</a></li>
-                                <li><a href="#">Profile</a></li>
-                                <li><a href="#">My Courses</a></li>
-                                <li><a href="#">Orders</a></li>
-                                <li><a href="#">Reviews</a></li>
-                                <li><a href="#">Students</a></li>
-                                <li><a href="#">Payouts</a></li>
-                                <li><a href="#">Earning</a></li>
-                                <li><a href="#">Quiz</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">Students <i class="fas fa-caret-right"></i></a>
-                        <div class="dropdown-menu-2">
-                            <ul>
-                                <li><a href="#">Dashboard</a></li>
-                                <li><a href="#">Subscriptions</a></li>
-                                <li><a href="#">Payments</a></li>
-                                <li><a href="#">Billing Info</a></li>
-                                <li><a href="#">Invoice</a></li>
-                                <li><a href="#">Invoice Details</a></li>
-                                <li><a href="#">BookMarked</a></li>
-                                <li><a href="#">My Path</a></li>
-                                <li><a href="#">Quiz</a></li>
-                            </ul>
-                        </div>
-                    
-                    
-                    </li>
-                    <li><a href="#">Admin</a></li></br>
-                    <li><a href="#">Sign In</a></li>
-                    <li><a href="#">Sign Out</a></li>
-                    <li><a href="#">Forgot Password</a></li>
-                    <li><a href="#">Edit Profile</a></li>
-                    <li><a href="#">Security</a></li>
-                    <li><a href="#">Social Profile</a></li>
-                    <li><a href="#">Notifiactions</a></li>
-                    <li><a href="#">Linked Accounts</a></li>
-                    <li><a href="#">Delete Profile</a></li>
-                
-                </ul>
-            </div>
-        </li>
-        <li><a href="#">Mega Menu</a></li>
-        <li><a href="#">...</a></li>
-        <li><a class="cta" href="#"><button>Sign in</button></a></li>
-        <li><a class="cta" href="#"><button>Sign out</button></a></li>
-
-      </ul>
-      
-    </div>  
+     
 
     
     
@@ -248,15 +594,19 @@
             <div class="column-left"></br></br></br>
                 <p> Most trusted education platform</p>
             </br>
-                <h1>
-                    Grow your skills and advance career</h1>
-                    <p>
-                        Start, switch, or advance your career with more than 5,000 courses,
+                <h1 class="display-3 fw bold mb-3">Grow your skills and advance career</h1>
+                    
+                    <p class="pe-lg-10 mb-5"> 
+                       Start, switch, or advance your career with more than 5,000 courses,
                     
                     Professional Certificates, and degrees from world-class universities and companies.
                     </p>
-                    <button>Join Free Now</button></br>
-                    <button>Free Demo</button>
+                    <a href="#" class="btn btn-primary">Join Free Now</a></br>
+                    <a href="https://www.youtube.com/watch?v=Nfzi7034Kbg" class="glightbox fs-4 text-inherit ms-3">
+                        <img src="https://geeksui.codescandy.com/geeks/assets/images/svg/play-btn.svg" alt="play"
+                        class="me-2">  Watch Demo 
+                         
+                    </a>
             </div>
             <div class="column-right">
                 <img src="./girl-image.png" alt="illustration" class="hero-image">
