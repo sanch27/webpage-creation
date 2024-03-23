@@ -293,48 +293,7 @@ body {
   box-shadow: var(--gk-dropdown-shadow);
   z-index: 1021;
 }
-.dropdown-menu {
-  --gk-dropdown-zindex: 1000;
-  --gk-dropdown-min-width: 10rem;
-  --gk-dropdown-padding-x: 0;
-  --gk-dropdown-padding-y: 0.5rem;
-  --gk-dropdown-spacer: 0.125rem;
-  --gk-dropdown-font-size: 0.875rem;
-  --gk-dropdown-color: var(--gk-gray-700);
-  --gk-dropdown-bg: var(--gk-dropdown-background);
-  --gk-dropdown-border-color: var(--gk-border-color);
-  --gk-dropdown-border-radius: var(--gk-border-radius);
-  --gk-dropdown-border-width: var(--gk-border-width);
-  --gk-dropdown-inner-border-radius: calc(var(--gk-border-radius) - var(--gk-border-width));
-  --gk-dropdown-divider-bg: var(--gk-border-color);
-  --gk-dropdown-divider-margin-y: 0.5rem;
-  --gk-dropdown-box-shadow: var(--gk-dropdown-shadow);
-  --gk-dropdown-link-color: var(--gk-dropdown-link-color);
-  --gk-dropdown-link-hover-color: var(--gk-dropdown-link-hover-color);
-  --gk-dropdown-link-hover-bg: var(--gk-dropdown-link-hover-bg);
-  --gk-dropdown-link-active-color: var(--gk-dropdown-link-hover-color);
-  --gk-dropdown-link-active-bg: var(--gk-dropdown-link-hover-bg);
-  --gk-dropdown-link-disabled-color: var(--gk-tertiary-color);
-  --gk-dropdown-item-padding-x: 1rem;
-  --gk-dropdown-item-padding-y: 0.25rem;
-  --gk-dropdown-header-color: #475569;
-  --gk-dropdown-header-padding-x: 1rem;
-  --gk-dropdown-header-padding-y: 0.5rem;
-  background-clip: padding-box;
-  background-color: var(--gk-dropdown-bg);
-  border: var(--gk-dropdown-border-width) solid var(--gk-dropdown-border-color);
-  border-radius: var(--gk-dropdown-border-radius);
-  color: var(--gk-dropdown-color);
-  display: none;
-  font-size: var(--gk-dropdown-font-size);
-  list-style: none;
-  margin: 0;
-  min-width: var(--gk-dropdown-min-width);
-  padding: var(--gk-dropdown-padding-y) var(--gk-dropdown-padding-x);
-  position: absolute;
-  text-align: left;
-  z-index: var(--gk-dropdown-zindex);
-}
+
 
 .navbar .dropdown-menu .dropdown-list-group-item {
   min-width: 100%;
@@ -410,10 +369,18 @@ body {
 }
 
 
-.dropdown-item p {
-
-width: 100%;
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 12px 0;
+  color: #000;
 }
+
+.dropdown-item p{
+  width: 100%;
+}
+
 
 
 
